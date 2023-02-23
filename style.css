@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Acme', sans-serif;
+    background-image: url("https://img.freepik.com/vetores-premium/de-volta-as-aulas-padrao-sem-emenda-de-desenho-de-doodle_221062-914.jpg?w=740");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(78, 78, 78);
+    height: 12vh;
+    color: rgb(209, 208, 208);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    margin: 0 15px 0 0;
+    color: rgb(209, 208, 208);
+    transition: .3s;
+}
+
+li:hover {
+    cursor: pointer;
+    color: white;
+    transition: .3s;
+    transform: scale(1.2);
+}
+
+article{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.post1{
+    margin-top: 40px;
+}
+
+.post1 img{
+    height: 400px;
+    box-shadow: 10px 10px rgba(102, 101, 101, .90);
+}
